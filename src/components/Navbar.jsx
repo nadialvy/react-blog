@@ -10,7 +10,7 @@ const Navbar = () => {
             className="h-10 mr-3"
             alt="Daisy Logo"
           />
-          <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-3xl text-yellow-500 font-semibold whitespace-nowrap dark:text-white">
             Daisy Blog
           </span>
         </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-xl block py-2 pl-3 pr-4 text-yellow-500 md:p-0"
+                className="text-xl block py-2 pl-3 pr-4 hover:text-yellow-500 md:p-0"
                 aria-current="page"
               >
                 Home
