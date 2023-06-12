@@ -1,6 +1,13 @@
 import logo from '../assets/logo.png';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
+
   return (
     <nav className="mx-32 bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -39,21 +46,16 @@ const Navbar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a
-                href="#"
-                className="text-xl block py-2 pl-3 pr-4 hover:text-yellow-500 md:p-0"
-                aria-current="page"
-              >
-                Home
-              </a>
+              <NavLink
+                to="/"
+                className={`text-xl py-2 pl-3 pr-4 hover:text-yellow-500 ${isActive('/') ? 'text-yellow-500' : ''}`}
+              >Home</NavLink>
             </li>
             <li>
-              <a
-                href="#"
-                className="text-xl block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 hover:text-yellow-500 "
-              >
-                New Blog
-              </a>
+              <NavLink
+                to="/create"
+                className={`text-xl py-2 pl-3 pr-4 hover:text-yellow-500 ${isActive('/create') ? 'text-yellow-500' : ''}`}
+              >New Blog</NavLink>
             </li>
           </ul>
         </div>
