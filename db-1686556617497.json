@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "content": "This is my first blog post. I hope you like it!",
+      "author": "John Doe",
+      "date": "2019-01-01",
+      "id": 1
+    },
+    {
+      "title": "Travel Adventures",
+      "content": "In this blog post, I will be sharing my travel adventures from around the world. Join me as I explore new cultures and discover amazing places.",
+      "author": "Jane Smith",
+      "date": "2020-03-15",
+      "id": 2
+    },
+    {
+      "title": "Cooking Delights",
+      "content": "Welcome to my cooking blog! In this post, I will be sharing a delicious recipe for homemade pizza. Get ready to satisfy your taste buds!",
+      "author": "Alex Johnson",
+      "date": "2021-06-05",
+      "id": 3
+    }
+  ]
+}
