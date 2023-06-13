@@ -50,13 +50,6 @@
       "id": 7
     },
     {
-      "title": "hehe",
-      "content": "hiihi",
-      "author": "haha",
-      "date": "2023-06-13",
-      "id": 8
-    },
-    {
       "title": "cek",
       "content": "haha",
       "author": "tes",
@@ -69,27 +62,6 @@
       "author": "Cumque enim vitae qu",
       "date": "2023-06-13",
       "id": 10
-    },
-    {
-      "title": "Aperiam atque quis m",
-      "content": "Eaque esse fugit u",
-      "author": "Ad sed sed ea qui vo",
-      "date": "2023-06-13",
-      "id": 11
-    },
-    {
-      "title": "ajdkaj",
-      "content": "jdkaj",
-      "author": "kdjakj",
-      "date": "2023-06-13",
-      "id": 12
-    },
-    {
-      "title": "asdajk",
-      "content": "dj",
-      "author": "daa",
-      "date": "2023-06-13",
-      "id": 13
     }
   ]
 }
